@@ -1,0 +1,15 @@
+# Ignore all
+*
+
+# Include ignore, dir, subdir
+!.gitignore
+!nvim/
+!nvim/*
+!nvim/**/*
+
+!vifm/
+!vifm/*
+!vifm/**/*
+
+# Exclude installed plugins
+nvim/**/plugged
